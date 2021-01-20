@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Singleton.Servers;
+using System;
 
 namespace Singleton
 {
@@ -6,7 +7,12 @@ namespace Singleton
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            TableServers servers = new TableServers();
+
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine($"Next is {servers.GetNextServer()}");
+            }
         }
     }
 }
