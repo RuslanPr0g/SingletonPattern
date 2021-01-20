@@ -5,8 +5,8 @@ namespace Singleton
 {
     class Program
     {
-        static TableServers hosts = TableServers.GetTableServers();
-        static TableServers premiumHosts = TableServers.GetTableServers();
+        static readonly TableServers hosts = TableServers.GetTableServers();
+        static readonly TableServers premiumHosts = TableServers.GetTableServers();
         
         private static void Main(string[] args)
         {
