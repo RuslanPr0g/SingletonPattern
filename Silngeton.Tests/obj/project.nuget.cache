@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "y2qK8MamS0kA9dQx2cRuSYTo74OZnR7BiGX5FW1KptwkZUq8Z7zF6IAybjX/BB0HO2+7CeQWwmeY7SpSWdlMWg==",
+  "dgSpecHash": "exeMUNZX32/7KdTsvMCD3EHJ+qxg7gR8Yc6P1l8T8aPM5YD1r+djZb5f7gKzXESBdgWGhgnDeVC2IYJ6nE2Ttg==",
   "success": true,
   "projectFilePath": "C:\\Users\\theru\\Desktop\\SingletonPatternProject\\Silngeton.Tests\\Silngeton.Tests.csproj",
   "expectedPackageFiles": [

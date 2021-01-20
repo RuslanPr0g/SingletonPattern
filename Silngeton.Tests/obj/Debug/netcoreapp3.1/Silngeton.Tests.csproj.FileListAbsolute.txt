@@ -95,3 +95,6 @@ C:\Users\theru\Desktop\SingletonPatternProject\Silngeton.Tests\obj\Debug\netcore
 C:\Users\theru\Desktop\SingletonPatternProject\Silngeton.Tests\obj\Debug\netcoreapp3.1\Silngeton.Tests.dll
 C:\Users\theru\Desktop\SingletonPatternProject\Silngeton.Tests\obj\Debug\netcoreapp3.1\Silngeton.Tests.pdb
 C:\Users\theru\Desktop\SingletonPatternProject\Silngeton.Tests\obj\Debug\netcoreapp3.1\Silngeton.Tests.genruntimeconfig.cache
+C:\Users\theru\Desktop\SingletonPatternProject\Silngeton.Tests\bin\Debug\netcoreapp3.1\Singleton.exe
+C:\Users\theru\Desktop\SingletonPatternProject\Silngeton.Tests\bin\Debug\netcoreapp3.1\Singleton.dll
+C:\Users\theru\Desktop\SingletonPatternProject\Silngeton.Tests\bin\Debug\netcoreapp3.1\Singleton.pdb
