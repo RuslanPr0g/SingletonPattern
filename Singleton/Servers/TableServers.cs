@@ -9,7 +9,7 @@ namespace Singleton.Servers
         private readonly List<string> servers = new List<string>();
         private int nextServer = 1;
 
-        public TableServers()
+        private TableServers()
         {
             servers.Add("Russia");
             servers.Add("USA");
