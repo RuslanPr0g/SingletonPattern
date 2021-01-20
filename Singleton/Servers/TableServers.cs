@@ -19,6 +19,11 @@ namespace Singleton.Servers
             servers.Add("Mexico");
         }
 
+        public static TableServers GetTableServers()
+        {
+            return _instance;
+        }
+
         public string GetNextServer()
         {
             string output = servers[nextServer++];
