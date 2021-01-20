@@ -6,6 +6,8 @@ namespace Singleton.Servers
 {
     public class TableServers
     {
+        private static readonly TableServers _instance = new TableServers();
+
         private readonly List<string> servers = new List<string>();
         private int nextServer = 1;
 
