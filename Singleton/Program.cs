@@ -5,14 +5,33 @@ namespace Singleton
 {
     class Program
     {
-        static void Main(string[] args)
+        static TableServers hosts = new TableServers();
+        static TableServers premiumHosts = new TableServers();
+        
+        private static void Main(string[] args)
         {
-            TableServers servers = new TableServers();
+            if (args is null)
+            {
+                throw new ArgumentNullException(nameof(args));
+            }
 
             for (int i = 0; i < 10; i++)
             {
-                Console.WriteLine($"Next is {servers.GetNextServer()}");
+                GetNextHost();
+                GetNextPremiumHost();
             }
+
+            Console.ReadKey();
+        }
+
+        private static void GetNextHost()
+        {
+            Console.WriteLine($"Next is {hosts.GetNextServer()}");
+        }
+
+        private static void GetNextPremiumHost()
+        {
+            Console.WriteLine($"Next is {premiumHosts.GetNextServer()}");
         }
     }
 }
