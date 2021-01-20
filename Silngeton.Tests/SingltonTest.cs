@@ -12,10 +12,20 @@ namespace Silngeton.Tests
         static readonly TableServers premiumHosts = TableServers.GetTableServers();
 
         [Theory]
-        [InlineData]
-        public void ShouldNotReturnTheSameInstance()
+        [InlineData(10)]
+        public void ShouldNotReturnTheSameInstance(int count)
         {
+            bool was = false;
 
+            for (int i = 0; i < count; i++)
+            {
+                if (hosts.GetNextServer() == premiumHosts.GetNextServer())
+                {
+                    was = true;
+                }
+            }
+
+            Assert.False(was);
         }
     }
 }
